@@ -1,0 +1,66 @@
+[
+  {
+    "item": {
+      "name": "รูปเหมือนปั้มหลวงพ่อปลอด รุ่นแรก ปี 2512",
+      "description": ""
+    },
+    "purchase": {
+      "purchasePrice": 25000,
+      "purchaseDate": "2023-07-02T10:17:40.426Z",
+      "seller": "นิก หัวป่า"
+    },
+    "sale": {
+      "salePrice": 30000,
+      "saleDate": "2023-07-02T10:17:40.426Z",
+      "buyer": "ป๋อง คลองขุด"
+    }
+  },
+  {
+    "item": {
+      "name": "รูปเหมือนปั้มหลวงพ่อปลอด รุ่น2 ปี 2518",
+      "description": ""
+    },
+    "purchase": {
+      "purchasePrice": 3500,
+      "purchaseDate": "2023-07-02T10:17:40.426Z",
+      "seller": "นิก หัวป่า"
+    },
+    "sale": {
+      "salePrice": 4500,
+      "saleDate": "2023-07-02T10:17:40.426Z",
+      "buyer": "ป๋อง คลองขุด"
+    }
+  },
+  {
+    "item": {
+      "name": "รูปเหมือนหลวงพ่อปลอด รุ่น4 ปี 2536",
+      "description": ""
+    },
+    "purchase": {
+      "purchasePrice": 3000,
+      "purchaseDate": "2023-07-02T10:17:40.426Z",
+      "seller": "นิก หัวป่า"
+    },
+    "sale": {
+      "salePrice": 3500,
+      "saleDate": "2023-07-02T10:17:40.426Z",
+      "buyer": "ป๋อง คลองขุด"
+    }
+  },
+  {
+    "item": {
+      "name": "หลวงพ่อปลอดพิมพ์ พุทธกวัก",
+      "description": ""
+    },
+    "purchase": {
+      "purchasePrice": 5000,
+      "purchaseDate": "2023-07-02T10:17:40.426Z",
+      "seller": "นิก หัวป่า"
+    },
+    "sale": {
+      "salePrice": 6000,
+      "saleDate": "2023-07-02T10:17:40.426Z",
+      "buyer": "ป๋อง คลองขุด"
+    }
+  }
+]

@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const Tour = require('../../models/tourModel');
 const Review = require('../../models/reviewModel');
 const User = require('../../models/userModel');
+const Pra = require('../../models/praModel');
 
 dotenv.config({ path: './config.env' });
 
@@ -16,6 +17,7 @@ const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`, 'utf-8'));
 const reviews = JSON.parse(
   fs.readFileSync(`${__dirname}/reviews.json`, 'utf-8')
 );
+const pras = JSON.parse(fs.readFileSync(`${__dirname}/pras.json`, 'utf-8'));
 
 // IMPORT DATA INTO DB
 const importData = async () => {
@@ -23,6 +25,7 @@ const importData = async () => {
     await Tour.create(tours);
     await User.create(users, { validateBeforeSave: false });
     await Review.create(reviews);
+    await Pra.create(pras);
     console.log('Data successfully loaded!');
   } catch (err) {
     console.log(err);
@@ -36,6 +39,7 @@ const deleteData = async () => {
     await Tour.deleteMany();
     await User.deleteMany();
     await Review.deleteMany();
+    await Pra.deleteMany();
     console.log('Data successfully deleted!');
   } catch (err) {
     console.log(err);
